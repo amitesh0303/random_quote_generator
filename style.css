@@ -2,9 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     height: 100vh;
-  }
+    background-color: #20293A;
+    font-family: "Outfit";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E3E8EF;
+    text-align: center;
+}
 
+#card {
+    width: 500px;
+    background-color: #4A5567;
+    padding: 32px 32px 40px 32px;
+    border-radius: 10px;
+    background-image: url(./resources/bg-image-random-quote.png);
+    box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0), 286px 195px 138px 0px rgba(0, 0, 0, 0.01),
+        161px 110px 117px 0px rgba(0, 0, 0, 0.05), 72px 49px 87px 0px rgba(0, 0, 0, 0.09),
+        18px 12px 48px 0px rgba(0, 0, 0, 0.1);
+}
+
+#card h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+#tag-group {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: #AEB0FF;
+    font-size: 0.625rem;
+    padding-bottom: 24px;
+}
+
+.tag {
+    border: 1px solid #AEB0FF;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+#quote {
+    font-size: 1.5rem;
+}
+
+#button-group {
+    gap: 12px;
+    margin-top:16px;
+    display: flex;
+}
+
+.button {
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+button{
+    background-color: #4A5567;
+    color:#E3E8EF;
+    font-size: 0.625rem;
+    display: flex;
+}
